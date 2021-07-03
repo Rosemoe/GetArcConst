@@ -15,14 +15,14 @@ We follow Arcaea's way to present them in our project.
 * Query with songId
 Note: songId is case-sensitive
 ```Kotlin
-val titles = ArcaeaTitles(File("songlist.json"))
-val consts = ArcaeaConstants(File("constantsFromWiki.txt"))
+val titles = ArcaeaTitles(getResource("songlist.json"))
+val consts = ArcaeaConstants(getResource("constantsFromWiki.txt"))
 println(consts.queryForTitle(titles.queryForId("melodyoflove"), 2))
 ```
 * Query with song title
 Note: title is case-insensitive
 ```Kotlin
-val consts = ArcaeaConstants(File("constantsFromWiki.txt"))
+val consts = ArcaeaConstants(getResource("constantsFromWiki.txt"))
 println(consts.queryForTitle("A wandering melody of love", 2))
 ```
 ## How to get updated `constantsFromWiki.txt`
