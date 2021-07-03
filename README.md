@@ -12,14 +12,14 @@ We follow Arcaea's way to present them in our project.
 |Future|2|  
 |Beyond|3|  
 ### Query code
-* Query with songId
+* Query with songId   
 Note: songId is case-sensitive
 ```Kotlin
 val titles = ArcaeaTitles(getResource("songlist.json"))
 val consts = ArcaeaConstants(getResource("constantsFromWiki.txt"))
 println(consts.queryForTitle(titles.queryForId("melodyoflove"), 2))
 ```
-* Query with song title
+* Query with song title   
 Note: title is case-insensitive
 ```Kotlin
 val consts = ArcaeaConstants(getResource("constantsFromWiki.txt"))
