@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a00952e-5987-4dd6-8b48-87382d8cafbe" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/Rosemoe/arcConsts/utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/constantsFromWiki.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/songlist.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Test.kt" afterDir="false" />
+    <list default="true" id="6a00952e-5987-4dd6-8b48-87382d8cafbe" name="Default Changelist" comment="Fix README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/GetArcConst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/Rosemoe/arcConsts/guess.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/Rosemoe/arcConsts/constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/titles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/Rosemoe/arcConsts/titles.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/github/Rosemoe/arcConsts/titles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/Rosemoe/arcConsts/titles.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/constantsFromWiki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/constantsFromWiki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/songlist.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/songlist.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -48,15 +53,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\20734\Documents\IdeaProjects\GetArcConst\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.GuessKt">
+    <configuration name="GuessKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.Rosemoe.arcConsts.GuessKt" />
+      <module name="GetArcConst.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestKt" />
       <module name="GetArcConst.test" />
@@ -66,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GuessKt" />
         <item itemvalue="Kotlin.TestKt" />
       </list>
     </recent_temporary>
@@ -78,6 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625281250119</updated>
+      <workItem from="1627968207585" duration="1633000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1625281629433</created>
@@ -86,8 +105,25 @@
       <option name="project" value="LOCAL" />
       <updated>1625281629433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix missing files&#10;Move package">
+      <created>1625282298242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625282298242</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix README.md">
+      <created>1625282419153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625282419153</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -99,10 +135,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Fix missing files&#10;Move package" />
+    <MESSAGE value="Fix README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix README.md" />
   </component>
 </project>

@@ -8,7 +8,7 @@ import java.lang.StringBuilder
 
 class ArcaeaTitles(songListJsonFile: File) {
 
-    private val mapping = mutableMapOf<String, String>()
+    internal val mapping = mutableMapOf<String, String>()
 
     init {
         var br: BufferedReader? = null

@@ -1,36 +1,36 @@
 # GetArcConst
-A library to get Arcaea constants for songId or song title   
-Current version: Arcaea 3.6.4
-## Usage
-### Tip of Difficulties
-There are several difficulties for every song.   
-We follow Arcaea's way to present them in our project.   
-|Difficulty|Difficulty Integer|
+* 获取Arcaea谱面定数的工具
+* Lxns Bot Guessn 猜歌辅助工具(guess.kt)
+现在的版本: Arcaea 3.7.0
+## 用法
+### 难度说明 
+使用了Arcaea的方式表示难度   
+|难度|数值|
 | --- | --- |
 |Past|0|  
 |Present|1|  
 |Future|2|  
 |Beyond|3|  
-### Query code
-* Query with songId   
-Note: songId is case-sensitive
+### 查询代码
+* 使用songId查询      
+注意：区分大小写
 ```Kotlin
 val titles = ArcaeaTitles(getResource("songlist.json"))
 val consts = ArcaeaConstants(getResource("constantsFromWiki.txt"))
 println(consts.queryForTitle(titles.queryForId("melodyoflove"), 2))
 ```
-* Query with song title   
-Note: title is case-insensitive
+* 使用title查询     
+注意：不区分大小写
 ```Kotlin
 val consts = ArcaeaConstants(getResource("constantsFromWiki.txt"))
 println(consts.queryForTitle("A wandering melody of love", 2))
 ```
-## How to get updated `constantsFromWiki.txt`
-Click [here](https://wiki.arcaea.cn/index.php?title=%E5%AE%9A%E6%95%B0%E8%AF%A6%E8%A1%A8&action=edit) and copy the shown **wiki source code**.   
-Replace the content in `constantsFromWiki.txt` with your copied content.
-## How to get updated `songlist.json`
-* Download newest game installation package (.apk)
-* Rename it with suffix '.zip'
-* Open the package and turn to `assets/songs`
-* Copy the content of the file named `songlist`
-* Replace the content in `songlist.json` with your copied content
+## 升级 `constantsFromWiki.txt`
+* 点 [这里](https://wiki.arcaea.cn/index.php?title=%E5%AE%9A%E6%95%B0%E8%AF%A6%E8%A1%A8&action=edit) 并且复制显示的 **wiki源代码**.   
+* 覆盖`constantsFromWiki.txt`的内容
+## 升级 `songlist.json`
+* 下载最新的Arcaea
+* 以zip方式打开
+* 转到 `assets/songs`
+* 复制文件 `songlist`
+* 覆盖 `songlist.json` 的内容
